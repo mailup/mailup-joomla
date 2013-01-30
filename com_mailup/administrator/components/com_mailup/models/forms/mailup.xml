@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+<config>
+	<fields addfieldpath="/administrator/components/com_mailup/elements">
+	<fieldset name="details">
+		
+		<field
+			name="id"
+			type="hidden"
+		/>
+		
+		<field
+			name="name"
+			type="text"
+			readonly="false"
+			label="COM_MAILUP_MAILUP_FIELD_NAME_LABEL"
+			description="COM_MAILUP_MAILUP_FIELD_NAME_DESC"
+			size="40"
+			class="inputbox"
+			validate=""
+			required="true"
+			default=""
+		/>
+		
+		<field
+			name="email"
+			type="text"
+			readonly="true"
+			label="COM_MAILUP_MAILUP_FIELD_EMAIL_LABEL"
+			description="COM_MAILUP_MAILUP_FIELD_EMAIL_DESC"
+			size="40"
+			class="inputbox"
+			validate=""
+			required="true"
+			default=""
+		/>
+			
+		
+		<field
+			name="lists"
+			type="treelists"
+			label="Lists"
+			
+		/>
+		
+	
+		
+	</fieldset>
+	</fields>
+	
+</config>
+</form>

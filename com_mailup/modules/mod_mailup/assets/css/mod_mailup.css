@@ -1,0 +1,21 @@
+form.mod_mailup p label{
+	margin-right: 10px;
+	width: 8.4em;
+	display: block;
+	float: left;
+}
+
+form.mod_mailup input.inputbox{
+	border: solid 1px #DDD;
+	padding: 2px;
+	width: 9em;
+}
+
+.mod_mailup .labellist{
+	width:60%; 
+	display:inline-block;
+}
+
+.mod_mailup .subbutton{
+	margin-top:10px;
+}

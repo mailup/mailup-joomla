@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+<!--	addrulepath="/administrator/components/com_mailup/models/rules"-->
+
+	<fieldset name="details" addfieldpath="/administrator/components/com_mailup/models/fields">
+		<field
+			name="id"
+			type="hidden"
+		/>
+		<field
+			name="name"
+			type="text"
+			readonly="true"
+			label="COM_MAILUP_MAILUP_FIELD_GROUP_NAME_LABEL"
+			description="COM_MAILUP_MAILUP_FIELD_GROUP_NAME_DESC"
+			size="40"
+			class="inputbox"
+			validate=""
+			required="false"
+			default=""
+		/>
+		
+		<field
+			name="alias"
+			type="text"
+			label="COM_MAILUP_MAILUP_FIELD_GROUP_ALIAS_LABEL"
+			description="COM_MAILUP_MAILUP_FIELD_GROUP_ALIAS_DESC"
+			size="40"
+			class="inputbox"
+			validate=""
+			required=""
+			default=""
+		/>
+		
+		<field
+			name="description"
+			type="text"
+			label="COM_MAILUP_MAILUP_FIELD_GROUP_DESC_LABEL"
+			description="COM_MAILUP_MAILUP_FIELD_GROUP_DESC_DESC"
+			size="40"
+			class="inputbox"
+			validate=""
+			required="false"
+			default=""
+		/>
+		
+		<field
+			name="visible"
+			type="radio"
+			label="COM_MAILUP_MAILUP_FIELD_GROUP_VISIBLE_LABEL"
+			description="COM_MAILUP_MAILUP_FIELD_GROUP_VISIBLE_DESC"
+			class="inputbox"
+			validate=""
+			required="true"
+			default=""
+		>
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+				
+	</fieldset>
+	
+</form>

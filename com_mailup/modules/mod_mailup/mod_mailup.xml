@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="2.5.0" method="upgrade" client="site">
+	<name>Mailup Module</name>
+	<creationDate>July 2012</creationDate>
+	<version>1.0.5</version>
+	<author>Coolshop</author>
+	<authorEmail></authorEmail>
+	<authorUrl>http://www.coolshop.it</authorUrl>
+	<copyright></copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<description>Subscribe / Unsubscribe Module for Mailup</description>
+	<files>
+		<filename module="mod_mailup">mod_mailup.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<folder>tmpl</folder>
+		<folder>assets</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="privacy_itemid" type="menuItem" default="0" label="Privacy item id" description="" >
+					<option value="0">JNONE</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</install>

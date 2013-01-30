@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset name="com_mailup" label="Configuration">
+		<field name="user" type="text" default="" label="COM_MAILUP_CONFIG_USER_LABEL" description="COM_MAILUP_CONFIG_USER_DESC"></field>
+		<field name="pwd" type="password" default="" label="COM_MAILUP_CONFIG_PWD_LABEL" description="COM_MAILUP_CONFIG_PWD_DESC"></field>
+		<field name="consoleID" type="text" default="" label="COM_MAILUP_CONFIG_CONSOLE_ID_LABEL" description="COM_MAILUP_CONFIG_CONSOLE_ID_DESC"></field>
+		<field name="WSDLUrl_send" type="text" size="45" default="wsvc.ss.mailup.it" label="COM_MAILUP_CONFIG_WSDLURL_SEND_LABEL" description="COM_MAILUP_CONFIG_WSDLURL_SEND_DESC"></field>
+		<field name="WSDLUrl_import" type="text" size="45" default="" label="COM_MAILUP_CONFIG_WSDLURL_IMPORT_LABEL" description="COM_MAILUP_CONFIG_WSDLURL_IMPORT_DESC"></field>
+		<field name="WSDLUrl_manage" type="text" size="45" default="wsvc.ss.mailup.it" label="COM_MAILUP_CONFIG_WSDLURL_MANAGE_LABEL" description="COM_MAILUP_CONFIG_WSDLURL_MANAGE_DESC"></field>
+		<field name="FrontendURL" type="text" size="45" default="" label="COM_MAILUP_CONFIG_FRONTEND_URL_LABEL" description="COM_MAILUP_CONFIG_FRONTEND_URL_DESC"></field>
+		<!--<field name="nameUnique" type="text" size="45" default="" label="Company Unique Name" description=""></field>-->
+		<field name="rc4_pwd" type="text" size="45" default="" label="COM_MAILUP_CONFIG_RC4_PWD_LABEL" description="COM_MAILUP_CONFIG_RC4_PWD_DESC"></field>
+		<field name="confirm_subscription" type="radio" default="false" label="COM_MAILUP_CONFIG_CONFIRM_SUBSCRIPTION_LABEL" description="COM_MAILUP_CONFIG_CONFIRM_SUBSCRIPTION_DESC">
+			<option	 value="true">JNO</option>
+			<option	 value="false">JYES</option>
+		</field>
+	</fieldset>
+	<fieldset	name="permissions"	label="JCONFIG_PERMISSIONS_LABEL"	description="JCONFIG_PERMISSIONS_DESC"	>
+		<field		name="rules"		type="rules"		label="JCONFIG_PERMISSIONS_LABEL"		class="inputbox"		validate="rules"		filter="rules"		component="com_mailup"		section="component"		/>
+	</fieldset>
+</config>
+ 
