@@ -30,6 +30,7 @@ For detailed installation instructions, please visit [MailUp documentation for J
 Revision history
 ----------------
 1.0.5	Fixed conflict between jQuery and mootools, updated style of subscription module, changed installation type (from "install" to "upgrade")
+
 1.0.4	First stable version
 
 
