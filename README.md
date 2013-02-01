@@ -1,5 +1,6 @@
 mailup-joomla
 =============
+
 Easily add a newsletter sign-up form to your Web site or blog, then run email marketing campaigns with MailUp.
 The MailUp sign-up form in the Joomla! administration area is an extension, which can be added to your Web site like you do with other extensions (e.g. you may decide to drop it in the left-side column).
 
@@ -9,9 +10,10 @@ The MailUp plugin supports the recommended 'confirmed opt-in' subscription metho
 
 The unsubscription process (e.g. via an unsubscribe link in the footer of your messages), as well as bounces, will be managed automatically by MailUp.
 
+### Stable version: 1.0.5, released on 2013-01-29 and downloadable from master branch.
 
 How to use the MailUp extension
-===============================
+-------------------------------
 1. Signup for a free trial (no credit card required) on www.mailup.com
 2. Create one or more Lists and optionally some groups within your lists. Each list is a separate environment. Uunsubscription by pressing unsubscribe link in message footer applies to the list whose the message belong.
 3. Install the extension plugin in your Joomla! admin area, select lists and group to be visible on registration form and then add signup form to the frontend of your Joomla!-powered website
@@ -22,11 +24,11 @@ How to use the MailUp extension
 8. Each action (subscribe, unsubscribe, change profile...) performed by subscribers outside your website is also notified to your website by means of trigger messages provided by MailUp (this feature is available starting from MailUp 8 by configuring webhooks)
 
 Installation
-============
-For detailed installation instructions, please visit http://help.mailup.com/pages/viewpage.action?pageId=11208725
+------------
+For detailed installation instructions, please visit [MailUp documentation for Joomla! extension](http://help.mailup.com/pages/viewpage.action?pageId=11208725)
 
 Revision history
-================
+----------------
 1.0.5	Fixed conflict between jQuery and mootools, updated style of subscription module, changed installation type (from "install" to "upgrade")
 1.0.4	First stable version
 
